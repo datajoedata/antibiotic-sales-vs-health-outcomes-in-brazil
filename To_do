@@ -1,0 +1,10 @@
+Pre-processing: 
+
+1- Natural encoding: cp-1252  ->>>>>>>>> Test if SQL accepts it, if not/change to UTF-8
+
+2- Remove unnecessary columns: ('DESCRICAO_APRESENTACAO',  'CONSELHO_PRESCRITOR', 'UF_CONSELHO_PRESCRITOR')
+
+3- Fill empty values with 0
+
+4-  
+
