@@ -1,3 +1,6 @@
+-- Creating table to receive values 
+
+
 CREATE TABLE industrialized_meds00 (
     ANO_VENDA INT,
     MES_VENDA INT,
