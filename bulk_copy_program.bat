@@ -12,7 +12,7 @@ set "schema=dbo"
 
 set "table=your_target_table_name_here"
 
-set "folder_path=C:\Users\ninol\Desktop\PROFESSIONAL\DATA_STORAGE\MEDICAMENTOS"
+set "folder_path=your_folder_path_here"
 
 
 
