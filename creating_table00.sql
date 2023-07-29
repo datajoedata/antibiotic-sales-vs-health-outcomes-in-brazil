@@ -1,4 +1,4 @@
--- Creating table to receive all csv files
+-- 1 - Creating table to receive all csv files
 
 CREATE TABLE industrialized_meds01 (
     ANO_VENDA INT,
@@ -14,3 +14,7 @@ CREATE TABLE industrialized_meds01 (
     IDADE FLOAT,
     UNIDADE_IDADE FLOAT
 );
+
+
+-- 2 - But now how do I know all rows have been sucessfully imported? 
+-- 
