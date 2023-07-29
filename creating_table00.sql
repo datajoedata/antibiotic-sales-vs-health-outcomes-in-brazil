@@ -26,12 +26,19 @@ CREATE TABLE industrialized_meds01 (
 -- Remember, this is done after files are inserted in the table.
 
 
-SELECT MES_VENDA, ANO_VENDA, COUNT(*) AS Quantidade
+SELECT MES_VENDA, ANO_VENDA, COUNT(*) AS Quantity
 FROM industrialized_meds01
 GROUP BY MES_VENDA, ANO_VENDA
-ORDER BY ANO_VENDA, MES_VENDA;
+ORDER BY ANO_VENDA, MES_VENDA
+INTO OUTFILE '/filepath/of/file.csv'
+FIELDS TERMINATED BY ';' -- Optional: Defines the field separator (comma)
+LINES TERMINATED BY '\n'; -- Optional: Defines the line separator (newline character)
+
+
+
 
 -- /////////////////////////////////////////////////////////// Below this line is not code /////////////////////////////////////
+
 Output: 
     
 MES_VENDA | ANO_VENDA | Quantidade | MES_VENDA | ANO_VENDA | Quantidade
