@@ -16,13 +16,13 @@ CREATE TABLE industrialized_meds01 (
 );
 
 
--- 2 - Use bulk_copy_program.bat script to insert files. 
+-- 2 - Use bulk_copy_program.bat script to insert files into industrialized_meds01 table. 
 
 
 
 
--- 3 - But now how do I know all rows have been sucessfully imported? 
--- We can count number of rows for each Month/year and then compare with pre-processing table. 
+-- 3 - But now how do we know all rows have been sucessfully imported? 
+-- We can count number of rows for each Month/year and then compare with the pre-processing counting table. 
 -- Remember, this is done after files are inserted in the table.
 
 
@@ -30,7 +30,7 @@ SELECT MES_VENDA, ANO_VENDA, COUNT(*) AS Quantity
 FROM industrialized_meds01
 GROUP BY MES_VENDA, ANO_VENDA
 ORDER BY ANO_VENDA, MES_VENDA
-INTO OUTFILE '/filepath/of/file.csv'
+INTO OUTFILE '/filepath/of/file.csv' -- If your sql server has a built int export function
 FIELDS TERMINATED BY ';' -- Optional: Defines the field separator (comma)
 LINES TERMINATED BY '\n'; -- Optional: Defines the line separator (newline character)
 
@@ -39,7 +39,8 @@ LINES TERMINATED BY '\n'; -- Optional: Defines the line separator (newline chara
 
 -- /////////////////////////////////////////////////////////// Below this line is not code /////////////////////////////////////
 
-Output: 
+
+This was the Output from sql: 
     
 MES_VENDA | ANO_VENDA | Quantidade | MES_VENDA | ANO_VENDA | Quantidade
 ---------------------------------------------------------------
