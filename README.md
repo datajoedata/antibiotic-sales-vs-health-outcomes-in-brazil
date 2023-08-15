@@ -2,10 +2,8 @@
 
 Intro:
 
-One of the biggest challenges of the century is ensuring preparedness among medical institutions 
-and their supply chains. Understanding past pandemics, anticipating recurring trends and medical patterns
-is crucial in addressing effective and or preventive medical care.
-
+One of the biggest challenges of the century is ensuring preparedness among medical institutions and their supply chains. 
+Understanding past pandemics, anticipating recurring trends, and medical patterns are crucial for addressing effective and preventive medical care.
 
 1- Context: 
 
