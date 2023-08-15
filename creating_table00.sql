@@ -1,4 +1,4 @@
--- 1 - Creating table to receive all csv files (DB SCHEMA OR BLUEPRINT)
+-- 1 - Creating table to receive all csv files 
 --   (TABLE SCHEMA OR BLUEPRINT)
 CREATE TABLE industrialized_meds01 (
     ANO_VENDA INT,
