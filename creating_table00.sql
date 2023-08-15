@@ -22,6 +22,8 @@ CREATE TABLE industrialized_meds01 (
 
 
 -- 3 - But now how do we know all rows have been sucessfully imported? 
+
+
 -- We can count number of rows for each Month/year and then compare with the pre-processing counting table. 
 -- Remember, this is done after files are inserted in the table.
 
