@@ -2,8 +2,9 @@
 
 Intro:
 
-One of the biggest challenges of the century is ensuring preparedness among medical institutions and their supply chains. 
-Understanding past pandemics, anticipating recurring trends, and medical patterns are crucial for addressing effective and preventive medical care.
+One of the significant challenges in this century involves ensuring readiness in medical institutions and their supply chains.
+Understanding past pandemics, predicting recurring trends, and medical patterns is essential for effective and preventive medical care.
+Experts highlight the rise of drug-resistant bacteria due to poor oversight and excessive usage, posing potential global harm in the near future.
 
 1- Context: 
 
@@ -12,5 +13,5 @@ This data was also extracted and fully cleaned (a lie I tell to myself everytime
 In this job you'll join me while I try to find patterns and insights from Anvisa's (Brazilian Health Regulatory Agency) industralized meds sales list. 
 
 
-I'll probably try to work with antibiotics that are used to treat drug resistant bacteria.
+I'll probably try to work with antibiotics that are used to treat drug resistant bacteria. 
 
