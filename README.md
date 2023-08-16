@@ -8,10 +8,18 @@ Experts highlight the rise of drug-resistant bacteria due to poor oversight and 
 
 1- Context: 
 
-This data was taken from Brazilian's governmental open data website: https://dados.gov.br/home
+
+1.1-  93 csv_files were extracted from Brazilian's governmental open data website: "https://dados.gov.br/home" and
+inserted into a local SQL server with SQL's Bulk Copy Program (BCP) for cleaning, and afterwards for analysis purposes. 
+
+
+1.2- Due to the size of files, Python, and Pandas framework were also used for minor tasks: like removing some unnecessaire columns before
+importing into db, and for better project readability in some cases. 
+
 This data was also extracted and fully cleaned (a lie I tell to myself everytime, it's never fully cleaned, lol) by me. 
 In this job you'll join me while I try to find patterns and insights from Anvisa's (Brazilian Health Regulatory Agency) industralized meds sales list. 
 
 
 I'll probably try to work with antibiotics that are used to treat drug resistant bacteria in Brazil 
+
 
