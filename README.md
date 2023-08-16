@@ -13,5 +13,5 @@ This data was also extracted and fully cleaned (a lie I tell to myself everytime
 In this job you'll join me while I try to find patterns and insights from Anvisa's (Brazilian Health Regulatory Agency) industralized meds sales list. 
 
 
-I'll probably try to work with antibiotics that are used to treat drug resistant bacteria. 
+I'll probably try to work with antibiotics that are used to treat drug resistant bacteria in Brazil 
 
