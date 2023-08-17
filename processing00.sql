@@ -11,6 +11,8 @@
 -- Upon further investigation, I discovered that the second method is, in fact, faster. This is attributed to the fact that for each row that requires deletion, the database must execute supplementary tasks,
 -- such as index maintenance, statistic updates, change logging, and potentially data reorganization.
 
+
+
 -- 4. The code: 
 
 
