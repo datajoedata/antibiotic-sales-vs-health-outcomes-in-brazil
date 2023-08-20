@@ -16,4 +16,4 @@ Given the substantial size of these files, a strategic fusion of Python and the 
 
 Throughout this journey, I play the dual role of data miner and curator. Together, we delve into the labyrinthine records of Anvisa (Brazilian Health Regulatory Agency), focusing on the sales data of industrialized medications. An intriguing focus of this endeavor involves dissecting the antibiotic landscape, particularly those employed to combat drug-resistant bacteria within Brazil.
 
-Join me in this exploration as we uncover patterns, glean insights, and forge connections within this wealth of data. Through our efforts, we aim to contribute to the fortification of medical strategies in a world where preparedness is paramount.
+Join me in this exploration as we uncover patterns, glean insights, and forge connections within this wealth of data. Through our efforts, we aim to contribute to the fortification of medical strategies in a world where preparedness is paramount. And maybe answer some questions like: 
