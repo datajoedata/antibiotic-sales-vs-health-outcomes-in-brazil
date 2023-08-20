@@ -8,3 +8,7 @@ Pre-processing:
 
 4-  check if files were properly imported by matching the number of rows in each original file and the ones inside the database 
 
+
+
+
+extra: Check if dictionaries would be appropriate to reduce computing power.
