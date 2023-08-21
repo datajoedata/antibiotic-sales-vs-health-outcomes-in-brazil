@@ -1,15 +1,12 @@
 # My2ndEDA
 
 
-1- Project Introduction:
+1- Project Motivation:
 
 In the face of 21st-century challenges, a critical task lies in fortifying the preparedness of medical institutions and their supply chains. The imperative to comprehend historical pandemics, forecast recurring trends, and decipher medical patterns stands as pivotal for efficient and proactive medical interventions. Notably, the emergence of drug-resistant bacteria, fueled by inadequate oversight and excessive usage, looms as a potential global threat in the immediate future.
 
 
-2- Motivation:  
-
-
-3- Project Context:
+2- Context:
 
 Data Compilation and Preparation: 
 
