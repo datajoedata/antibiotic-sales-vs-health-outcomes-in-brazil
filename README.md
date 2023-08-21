@@ -1,6 +1,7 @@
 # My2ndEDA
 
-1- My2ndEDA Project Introduction   
+
+1- Project Introduction:
 
 In the face of 21st-century challenges, a critical task lies in fortifying the preparedness of medical institutions and their supply chains. The imperative to comprehend historical pandemics, forecast recurring trends, and decipher medical patterns stands as pivotal for efficient and proactive medical interventions. Notably, the emergence of drug-resistant bacteria, fueled by inadequate oversight and excessive usage, looms as a potential global threat in the immediate future.
 
@@ -14,7 +15,12 @@ Data Compilation and Preparation:
 
 To embark on this mission, 93 CSV files have been meticulously sourced from the Brazilian governmental open data repository, accessible at "https://dados.gov.br/home". These raw datasets have been channeled into a localized SQL server through the strategic utilization of SQL's Bulk Copy Program (BCP). This initial phase serves to cleanse and streamline the data, priming it for subsequent analytical endeavors.
 
-4- Integrating Python and Pandas:
+
+4- Objectives: 
+
+
+
+5- Integrating Python and Pandas:
 
 Given the substantial size of these files, a strategic fusion of Python and the Pandas framework has been deployed to execute specific tasks. Python scripts have been harnessed to undertake preliminary operations such as pruning redundant columns prior to data importation into the database. This strategic employment of Python ensures not only data integrity but also enhances the overall project's legibility and manageability.
 
