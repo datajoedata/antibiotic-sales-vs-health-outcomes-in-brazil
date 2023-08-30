@@ -7,7 +7,7 @@
 -- 3.1 Deleting rows that don't have any antibiotics of interest in it. Or we could create a 
 -- new table with the same blueprint to receive values from a normal filtering where one of the antibiotics is found.
 
--- 3.2 At this point, I aimed to determine the quicker approach. While deletion carries integrity risks unless backed up (which I had), I mistakenly assumed deletion to be the swifter option.
+-- 3.2 At this point, I aimed the quicker approach. While deletion carries integrity risks unless backed up (which I had), I mistakenly assumed deletion to be the swifter option.
 -- Upon further investigation, I discovered that the second method is, in fact, faster. This is attributed to the fact that for each row that requires deletion, the database must execute supplementary tasks,
 -- such as index maintenance, statistic updates, change logging, and potentially data reorganization.
 
