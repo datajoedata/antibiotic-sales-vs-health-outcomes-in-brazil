@@ -19,7 +19,7 @@ To embark on this mission, 93 CSV files have been meticulously sourced from the 
 
 Explore and uncover patterns, glean insights, and forge connections within this wealth of data. Aiming to contribute to the fortification of medical strategies in a world where preparedness is paramount. And maybe answer some questions like: 
 
-A - How the sales raised in a time-frame perspective?
+A - How the sales notifications raised in a time-frame perspective?
 
 B - Where are the potential Hot Zones in Brazil?
 
