@@ -20,9 +20,13 @@ To embark on this mission, 93 CSV files have been meticulously sourced from the 
 Explore and uncover patterns, glean insights, and forge connections within this wealth of data. Aiming to contribute to the fortification of medical strategies in a world where preparedness is paramount. And maybe answer some questions like: 
 
 A - How the sales raised in a time-frame perspective?
-B - What are the Hot Zones in Brazil 
+
+B - Where are the potential Hot Zones in Brazil?
+
 C - 
+
 D - 
+
 E - 
 
 
