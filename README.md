@@ -3,7 +3,7 @@
 
 1- Project Motivation:
 
-In the face of 21st-century challenges, a critical task lies in fortifying the preparedness of medical institutions and their supply chains. The imperative to comprehend historical pandemics, forecast recurring trends, and decipher medical patterns stands as pivotal for efficient and proactive medical interventions. Notably, the emergence of drug-resistant bacteria, fueled by inadequate oversight and excessive usage, looms as a potential global threat in the immediate future.
+In the face of 21st-century challenges, a critical task lies in fortifying the preparedness of medical institutions and their supply chains. The imperative to comprehend historical pandemics, forecast recurring trends, and decipher medical patterns stands as pivotal for efficient and proactive medical interventions. Notably, the emergence of drug-resistant bacteria, fueled by inadequate oversight and excessive usage, looms as a potential global threat in the immediate future. 
 
 
 2- Context:
@@ -23,9 +23,9 @@ A - How the sales notifications raised in a time-frame perspective?
 
 B - Where are the potential Hot Zones in Brazil?
 
-C - 
+C - Population density plays a major role into this matter? 
 
-D - 
+D - Annual Death X Sales ratios are increasing? 
 
 E - 
 
