@@ -1,4 +1,4 @@
--- 1 - Creating table to receive all csv files 
+-- 2.0 - Creating table to receive all csv files 
 --   (TABLE SCHEMA OR BLUEPRINT)
 
 CREATE TABLE industrialized_meds01 (
@@ -16,15 +16,15 @@ CREATE TABLE industrialized_meds01 (
 );
 
 
--- 2 - Use bulk_copy_program.bat script to insert files into industrialized_meds01 table. 
+-- 2.1 - Use bulk_copy_program.bat script to insert files into industrialized_meds01 table. 
 
 
 
 
--- 3 - But now how do we know all rows have been sucessfully imported? 
+-- 2.2 - But now how do we know all rows have been sucessfully imported?         (Remember the table we separated in pre-processing?) 
 
 
--- We can count number of rows for each Month/year and then compare with the table we counting table. 
+-- We can count number of rows for each Month/year after inserting and then compare with the table we fetched in pre_processing step
 -- Remember, this is done after files are inserted in the table.
 
 
@@ -65,5 +65,5 @@ This was the Output from sql:
 
 
 
--- After comparing tables "matching_00" and "matching_01" 
+-- 2.3 After comparing tables "matching_00" and "matching_01" 
 -- It is evident that all lines were successfully imported.
