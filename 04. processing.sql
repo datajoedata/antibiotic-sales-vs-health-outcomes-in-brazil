@@ -1,22 +1,22 @@
--- 1.  First I've manually defined an antibiotics list that is used to treat drug resistant bacteria.  
+-- 4.0  First I've manually defined an antibiotics list that is used to treat drug resistant bacteria.  
 
--- 2.  Now we need to separate antibiotics of interest from all the controlled substances.  
+-- 4.1  Now we need to separate antibiotics of interest from all the controlled substances.  
 
--- 3.0  There were two approaches in this case:
+-- There were two approaches in this case:
 
--- 3.1 Deleting rows that don't have any antibiotics of interest in it. Or we could create a 
+-- Deleting rows that don't have any antibiotics of interest in it. Or we could create a 
 -- new table with the same blueprint to receive values from a normal filtering where one of the antibiotics is found.
 
--- 3.2 At this point, I aimed the quicker approach. While deletion carries integrity risks unless backed up (which I had), I mistakenly assumed deletion to be the swifter option.
+-- 4.1.1 At this point, I aimed the quicker approach. While deletion carries integrity risks unless backed up (which I had), I mistakenly assumed deletion to be the swifter option.
 -- Upon further investigation, I discovered that the second method is, in fact, faster. This is attributed to the fact that for each row that requires deletion, the database must execute supplementary tasks,
 -- such as index maintenance, statistic updates, change logging, and potentially data reorganization.
 
 
 
--- 4. The code: 
+-- 4.2 The code: 
 
 
--- 4.1 Creating table with previous blueprint
+-- 4.2.1 Creating a table with the previous blueprint to receive values: (I also translated columns values to eng. here)
 
 CREATE TABLE antibiotics_meds01 (
     year INT,
@@ -33,7 +33,7 @@ CREATE TABLE antibiotics_meds01 (
     age_unit FLOAT
 );
 
--- 4.2 Insert data that meet the criteria from antibiotics list into the new table and change column names to English:
+-- 4.2.2 Inserting data that meet the criteria from antibiotics list into the new table and change column names to English:
 
 INSERT INTO antibiotics_meds01
 SELECT
