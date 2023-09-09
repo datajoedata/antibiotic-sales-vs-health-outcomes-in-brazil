@@ -1,5 +1,6 @@
 -- 1 - Creating table to receive all csv files 
 --   (TABLE SCHEMA OR BLUEPRINT)
+
 CREATE TABLE industrialized_meds01 (
     ANO_VENDA INT,
     MES_VENDA INT,
@@ -8,7 +9,6 @@ CREATE TABLE industrialized_meds01 (
     PRINCIPIO_ATIVO NVARCHAR(602),
     QTD_VENDIDA INT,
     UNIDADE_MEDIDA NVARCHAR(6),
-    TIPO_RECEITUARIO VARCHAR(3),
     CID10 NVARCHAR(4),
     SEXO FLOAT,
     IDADE FLOAT,
@@ -24,7 +24,7 @@ CREATE TABLE industrialized_meds01 (
 -- 3 - But now how do we know all rows have been sucessfully imported? 
 
 
--- We can count number of rows for each Month/year and then compare with the pre-processing counting table. 
+-- We can count number of rows for each Month/year and then compare with the table we counting table. 
 -- Remember, this is done after files are inserted in the table.
 
 
@@ -32,7 +32,7 @@ SELECT MES_VENDA, ANO_VENDA, COUNT(*) AS Quantity
 FROM industrialized_meds01
 GROUP BY MES_VENDA, ANO_VENDA
 ORDER BY ANO_VENDA, MES_VENDA
-INTO OUTFILE '/filepath/of/file.csv' -- If your sql server has a built int export function
+INTO OUTFILE '/filepath/of/file.csv' -- If your sql server has a built in export function
 FIELDS TERMINATED BY ';' -- Optional: Defines the field separator (comma)
 LINES TERMINATED BY '\n'; -- Optional: Defines the line separator (newline character)
 
