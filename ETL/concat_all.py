@@ -3,7 +3,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from utilities import load_config_and_set_env
 
-config = load_config_and_set_env(bacteria_project\\config.json')
+config = load_config_and_set_env('bacteria_project\\config.json')
 
 
 # Função para converter todo o schema para String
