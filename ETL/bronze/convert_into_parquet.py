@@ -1,11 +1,10 @@
 import os
 import json
 import pandas as pd
-from utilities import set_environment_variables
+from utilities import load_config_and_set_env
 
-# Carregar o arquivo config.json
-with open('\\bacteria_project\\config.json', 'r') as file:
-    config = json.load(file)
+# Carregar o arquivo config.json e definir variáveis de ambiente
+config = load_config_and_set_env('\\bacteria_project\\config.json')
 
 # Chamar a função set_environment_variables
 set_environment_variables(config)
