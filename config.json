@@ -1,0 +1,21 @@
+{
+  "folder_paths": {
+    "industrialized_meds": "<path_to_industrialized_meds>",
+    "manipulated_meds": "<path_to_manipulated_meds>",
+    "raw_sim_files": "<path_to_raw_sim_files>",
+    "area_population": "<path_to_area_population>"
+  },
+
+  "folder_encodings": {
+    "industrialized_files": "cp-1252",
+    "manipulated_files": "cp-1252",
+    "sim_files": "cp-1252"
+  },
+
+  "output_folders": {
+    "industrialized_parquet": "<path_to_industrialized_parquet>",
+    "manipulated_parquet": "<path_to_manipulated_parquet>",
+    "sim_parquet": "<path_to_sim_parquet>",
+    "ibge_parquet": "<path_to_ibge_parquet>"
+  }
+}
