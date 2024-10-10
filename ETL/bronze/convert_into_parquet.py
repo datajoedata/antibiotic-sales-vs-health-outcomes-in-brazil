@@ -4,7 +4,7 @@ import pandas as pd
 from utilities import set_environment_variables, get_file_paths, parquet_exists, get_output_folder_for_file_type 
 
 # Carregar o arquivo config.json
-with open('C:\\Users\\ninol\\Desktop\\PROFESSIONAL\\projects\\bacteria_project\\config.json', 'r') as file:
+with open('\\projects\\bacteria_project\\config.json', 'r') as file:
     config = json.load(file)
 
 # Chamar a função set_environment_variables
